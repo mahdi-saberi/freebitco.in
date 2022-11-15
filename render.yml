@@ -1,0 +1,6 @@
+services:
+  # A Docker curl runner
+  - type: web
+    name: freebitco.in
+    env: docker
+    repo: https://github.com/mahdi-saberi/freebitco.in
